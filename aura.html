@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Reading</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <a href="index.html">Home</a>
+
+    <video id="video" width="640" height="480" z-index="2" autoplay></video>
+	<button id="snap" margin="500">Snap Photo</button>
+	<canvas id="canvas" z-index="2"></canvas>
+
+    <button id="start-button" onclick="eyedropper()">Open the eyedropper</button>
+    <span id="result"></span>
+
+
+    <script src="aura.js"></script>
+
+</body>
+</html>
